@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jadwal Monev BOP · 9 Nov – 4 Des 2026</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#f4f6f9;--sf:#fff;--ink:#0f1b2d;--mute:#5b6b80;--line:#e3e8ef;--line2:#c9d2de;--pri:#1b4b8a;--pris:#e8f0fb;--onp:#fff;--ok:#047857;--oks:#e3f5ee;--bad:#b42318;--bads:#fde8e6;--sh:0 1px 2px rgba(15,27,45,.05),0 6px 18px rgba(15,27,45,.05);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a111d;--sf:#111b2c;--ink:#e9eef6;--mute:#8fa0b6;--line:#1d2a40;--line2:#2e3e58;--pri:#7fb0f5;--pris:#12243f;--onp:#0a111d;--ok:#4ade9f;--oks:#0f2a22;--bad:#f58b82;--bads:#2e1715;--sh:none;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a111d;--sf:#111b2c;--ink:#e9eef6;--mute:#8fa0b6;--line:#1d2a40;--line2:#2e3e58;--pri:#7fb0f5;--pris:#12243f;--onp:#0a111d;--ok:#4ade9f;--oks:#0f2a22;--bad:#f58b82;--bads:#2e1715;--sh:none;color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-feature-settings:"tnum","cv11";-webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding:18px 18px 130px}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.02em}
+.lbl{font-size:12px;font-weight:600;color:var(--pri);letter-spacing:.06em;text-transform:uppercase}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:650;font-size:14.5px;line-height:1.2}
+.brand i{width:34px;height:34px;border-radius:10px;background:var(--pri);display:grid;place-items:center}
+.brand svg,.ib svg,nav.bn svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.brand svg{width:19px;height:19px;color:var(--onp)}
+.brand small{display:block;font-size:11.5px;font-weight:400;color:var(--mute)}
+.tools{display:flex;align-items:center;gap:8px}
+.chip2{font-size:12px;color:var(--mute);padding:6px 11px;border:1px solid var(--line);border-radius:99px;background:var(--sf);display:inline-flex;align-items:center;gap:6px}
+.chip2:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ok)}.chip2:empty{display:none}
+.ib{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--sf);color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.ib svg{width:17px;height:17px}
+header h1{font-size:clamp(26px,7vw,34px);line-height:1.15;margin:10px 0 8px;font-weight:650}
+header p{margin:0;color:var(--mute);font-size:14px}
+body:not([data-tab="j"]) .jonly{display:none}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:22px 0 14px}
+@media (min-width:560px){.facts{grid-template-columns:repeat(4,1fr)}}
+.facts div{background:var(--sf);border:1px solid var(--line);border-radius:16px;padding:13px 14px;box-shadow:var(--sh)}
+.facts div b{display:block;font-size:24px;font-weight:650;letter-spacing:-.03em;line-height:1.2}
+.facts div span{font-size:12px;color:var(--mute)}
+.bar{height:8px;border-radius:9px;background:var(--line);overflow:hidden;margin-bottom:18px}
+.bar i{display:block;height:100%;width:0;background:var(--ok);border-radius:9px;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.next{background:var(--pri);color:var(--onp);border-radius:22px;padding:20px;box-shadow:var(--sh)}
+.next .lbl{color:inherit;opacity:.75}
+.next b{display:block;font-size:20px;font-weight:600;letter-spacing:-.02em;line-height:1.3;margin:8px 0 4px}
+.next span{font-size:13.5px;opacity:.8}
+.next .btn{margin-top:16px;background:var(--onp);color:var(--pri);border-color:var(--onp);font-weight:600}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 8px}
+.seg button{text-align:left;font-family:inherit;color:var(--ink);background:var(--sf);border:1.5px solid var(--line);border-radius:16px;padding:12px 14px;cursor:pointer;transition:.2s}
+.seg button b{display:block;font-size:14.5px;font-weight:600}
+.seg button small{font-size:12px;color:var(--mute)}
+.seg button.on{border-color:var(--pri);background:var(--pris)}.seg button.on b{color:var(--pri)}
+.hint{font-size:12.5px;color:var(--mute);margin:0 2px}
+.pane{display:none}.pane.on{display:block;animation:in .3s ease}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.wk{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--mute);margin:30px 2px 12px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.wk b{color:var(--ink);font-weight:600}.wk span:last-child{font-weight:600;color:var(--ok)}
+.day{display:flex;gap:14px;padding:16px;background:var(--sf);border:1px solid var(--line);border-radius:20px;margin-bottom:12px;box-shadow:var(--sh);transition:border-color .2s}
+.day.today{border-color:var(--pri);box-shadow:0 0 0 3px var(--pris)}
+.day.ph{background:none;border-style:dashed;box-shadow:none;padding:13px 16px}
+.dd{flex:none;width:46px;text-align:center;background:var(--bg);border-radius:12px;padding:6px 0;align-self:flex-start}
+.today .dd{background:var(--pri);color:var(--onp)}
+.dd span{display:block;font-size:10.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.today .dd span{color:inherit;opacity:.8}
+.dd b{display:block;font-size:21px;font-weight:650;letter-spacing:-.03em;line-height:1.15}
+.db{flex:1;min-width:0}
+.dh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dh h3{font-size:15.5px}
+.meta{font-size:12.5px;color:var(--mute)}
+.tag{font-size:11px;font-weight:600;color:var(--pri);background:var(--pris);padding:2px 9px;border-radius:99px}
+.tag.ok{color:var(--ok);background:var(--oks)}.tag.bad{color:var(--bad);background:var(--bads)}
+.ph h3{font-weight:500;font-size:14px}
+.ph p{margin:2px 0 0;font-size:12.5px;color:var(--mute)}
+.s{display:flex;gap:12px;align-items:center;padding:12px 0 0;margin-top:12px;border-top:1px solid var(--line);cursor:pointer}
+.s:first-of-type{margin-top:12px}
+.t{flex:none;width:52px;font-size:11.5px;color:var(--mute);line-height:1.35}
+.m{flex:1;min-width:0}
+.m b{font-size:14.5px;font-weight:600}
+.s.ok .m b{color:var(--mute);text-decoration:line-through;text-decoration-color:var(--line2)}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.chip{font-size:11px;color:var(--mute);border:1px solid var(--line);padding:1px 8px;border-radius:99px}
+.chip.o{color:var(--pri);border-color:color-mix(in srgb,var(--pri) 40%,transparent);background:var(--pris)}
+.ck{appearance:none;-webkit-appearance:none;flex:none;width:26px;height:26px;margin:0;border-radius:50%;border:1.5px solid var(--line2);display:grid;place-items:center;cursor:pointer;transition:.2s;background:var(--sf)}
+.ck:checked{background:var(--ok);border-color:var(--ok)}
+.ck:checked:after{content:"";width:6px;height:11px;border:solid var(--sf);border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.ck:focus-visible,.btn:focus-visible,.ib:focus-visible,.seg button:focus-visible,nav.bn button:focus-visible{outline:2px solid var(--pri);outline-offset:2px}
+.tr{font-size:11.5px;color:var(--mute);padding:10px 0 0 64px}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:5px;min-height:40px;font:500 13px inherit;font-family:inherit;text-decoration:none;padding:9px 15px;border-radius:11px;border:1px solid var(--line2);background:var(--sf);color:var(--ink);cursor:pointer;transition:transform .15s,background .2s}
+.btn:active{transform:scale(.97)}
+.btn.pri{background:var(--pri);border-color:var(--pri);color:var(--onp)}
+.btn.bad{color:var(--bad);border-color:var(--bad)}
+.bld{margin-top:12px;padding:10px 12px;border-radius:12px;background:var(--pris);color:var(--pri);font-size:12.5px;line-height:1.5}.bld b{font-weight:600}
+.sec{font-size:12px;font-weight:600;color:var(--mute);letter-spacing:.06em;text-transform:uppercase;margin:30px 2px 12px}
+.rt{margin:12px 0 0}
+.rs{display:flex;gap:12px;align-items:center;padding:5px 0;position:relative;font-size:14px}
+.rs:not(:last-child):before{content:"";position:absolute;left:10px;top:28px;bottom:-6px;width:1px;background:var(--line2)}
+.nd{flex:none;width:21px;height:21px;border-radius:50%;border:1.5px solid var(--pri);color:var(--pri);display:grid;place-items:center;font-size:11px;font-weight:600;background:var(--sf);z-index:1}
+.nd.s0{background:var(--pri);color:var(--onp)}
+.why{display:grid;border:1px solid var(--line);border-radius:20px;background:var(--sf);overflow:hidden;box-shadow:var(--sh)}
+.why div{padding:15px 17px;font-size:13.5px;color:var(--mute);border-bottom:1px solid var(--line)}
+.why div:last-child{border:0}
+.why b{display:block;color:var(--ink);font-weight:600;margin-bottom:2px}
+.note{font-size:12.5px;color:var(--mute);margin-top:16px;padding:0 2px}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:20px;background:var(--sf);box-shadow:var(--sh)}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:13.5px}
+th,td{padding:12px;text-align:center;border-bottom:1px solid var(--line)}
+th{font-size:11px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.04em}
+td:first-child,th:first-child{text-align:left;font-weight:550;position:sticky;left:0;background:var(--sf)}
+tr:last-child td{border-bottom:0}.tf td{background:var(--bg)!important;font-weight:650}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--pri)}.dot.n{background:none;border:1.5px solid var(--line2)}
+nav.bn{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:min(400px,calc(100% - 28px));margin-bottom:10px;padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px));display:flex;gap:2px;background:color-mix(in srgb,var(--sf) 88%,transparent);backdrop-filter:saturate(1.6) blur(18px);-webkit-backdrop-filter:saturate(1.6) blur(18px);border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 30px rgba(15,27,45,.14);z-index:5}
+nav.bn button{flex:1;border:0;background:none;color:var(--mute);font:500 11px inherit;font-family:inherit;display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 0;border-radius:16px;cursor:pointer;transition:.2s}
+nav.bn svg{width:20px;height:20px}
+nav.bn button.on{background:var(--pri);color:var(--onp)}
+@media print{body{background:#fff}.top,nav.bn,.acts,.seg,.hint,.next,.ck{display:none!important}.day,.facts div{box-shadow:none;break-inside:avoid}.pane{display:none}.pane.on{display:block}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body data-tab="j">
+<div class="wrap">
+  <div class="top">
+    <div class="brand"><i><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17M9 15l2 2 4-4"/></svg></i><span>Monev BOP<small>Jadwal kunjungan</small></span></div>
+    <div class="tools"><span class="chip2" id="chip" aria-live="polite"></span><button class="ib" id="tg" type="button" aria-label="Ganti tema"><svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button></div>
+  </div>
+  <header>
+    <div class="lbl">Triwulan III 2025 – II 2026</div>
+    <h1>Jadwal monitoring dan evaluasi BOP</h1>
+    <p>9 Nov – 4 Des 2026 · Ulfa Sari &amp; Muhammad Yudha Pratama</p>
+    <div class="jonly">
+      <div class="facts">
+        <div><b id="sDone">0/9</b><span>Sekolah selesai</span></div>
+        <div><b id="sPer">26</b><span>Periode dimonitor</span></div>
+        <div><b id="sDays">5</b><span>Hari kunjungan</span></div>
+        <div><b id="sLeft">–</b><span>Hari menuju 4 Des</span></div>
+      </div>
+      <div class="bar"><i id="pb"></i></div>
+      <div class="next" id="next"></div>
+    </div>
+  </header>
+  <div class="seg jonly" id="mode">
+    <button data-m="padat"><b>Padat</b><small>5 hari · selesai 13 Nov</small></button>
+    <button data-m="santai"><b>Santai</b><small>9 hari · selesai 19 Nov</small></button>
+  </div>
+  <div class="hint jonly" id="hint"></div>
+
+  <section class="pane on" id="p-j"></section>
+
+  <section class="pane" id="p-r">
+    <div class="sec">Semua sekolah</div>
+    <div class="day"><div class="db"><div class="dh"><h3>Rute lengkap · 3 lokasi</h3></div><p class="meta" style="margin:4px 0 0">Semua titik sebagai pemberhentian, mulai dari lokasi Anda.</p><div class="acts"><a class="btn pri" id="full" target="_blank" rel="noopener">Buka di Google Maps ↗</a></div></div></div>
+    <div class="sec">Lokasi sekolah</div><div id="bl"></div><div class="sec">Rute per hari</div>
+    <div id="days"></div>
+    <div class="sec">Dasar pengelompokan</div>
+    <div class="why">
+      <div><b>Koreksi alamat</b>Di Dapodik, SDN Kalideres 01 sampai 04 tertulis di Jl. Peta Selatan No. 29, tetapi data Pemkot Jakarta Barat dan pin Maps menempatkannya di Jl. Kelurahan Lama No. 28 (RT 13/RW 1). Pin sekarang memakai alamat Maps. SDN 05, 06, 13, dan 14 sama-sama di Jl. Peta Barat RT 4/RW 7: satu kawasan, belum tentu satu bangunan.</div>
+      <div><b>Pagi dan petang</b>Nama sekolah menandai shift: 01 dan 03 Pagi, 02 dan 04 Petang. Di Peta Barat, 05 dan 06 Pagi, 13 dan 14 Petang. Saya pasangkan satu pagi dengan satu petang per hari agar jam seimbang.</div>
+      <div><b>SMKN 42 sendiri</b>Jenjang dan lokasinya berbeda dari klaster SD, jadi diberi hari tersendiri.</div>
+      <div><b>Jam kunjungan</b>Sekolah pagi mulai 08.00, petang mulai 12.30 (Jumat 13.00). Konfirmasi jam shift ke tiap sekolah, karena sebagian data mencatat jam belajar pagi 5 hari.</div>
+    </div>
+    <p class="note">Pin Maps memakai alamat dari data Pemkot Jakarta Barat (versi Maps), yang bisa berbeda dari Dapodik. Libur nasional belum saya cek, dan jam shift sebaiknya dikonfirmasi ke sekolah.</p>
+  </section>
+
+  <section class="pane" id="p-m">
+    <div class="sec">Sekolah × triwulan</div>
+    <div class="scroll"><table id="mx"></table></div>
+    <p class="note">Titik terisi = periode dimonitoring di sekolah tersebut, sesuai lampiran.</p>
+  </section>
+  <section class="pane" id="p-d">
+    <div class="sec">Penyimpanan</div>
+    <div class="day"><div class="db"><div class="dh"><h3>Progres di perangkat ini</h3></div><p class="meta" id="svs" style="margin:6px 0 0"></p><div class="acts"><button class="btn pri" id="ex" type="button">Ekspor cadangan</button><label class="btn" for="im">Impor cadangan<input id="im" type="file" accept="application/json,.json" hidden></label></div></div></div>
+    <div class="sec">Dokumen</div>
+    <div class="day"><div class="db"><div class="dh"><h3>Cetak jadwal</h3></div><p class="meta" style="margin:6px 0 0">Pilih "Simpan sebagai PDF" di dialog cetak browser.</p><div class="acts"><button class="btn" id="pr" type="button">Cetak / simpan PDF</button></div></div></div>
+    <div class="sec">Reset</div>
+    <div class="day"><div class="db"><div class="dh"><h3>Hapus progres</h3></div><p class="meta" style="margin:6px 0 0">Menghapus semua centang sekolah di perangkat ini. Ekspor cadangan dulu bila perlu.</p><div class="acts"><button class="btn bad" id="rs" type="button">Hapus progres</button></div></div></div>
+    <p class="note">Data tersimpan di browser perangkat ini saja. Ekspor cadangan secara berkala, atau saat pindah perangkat.</p>
+  </section>
+</div>
+
+<nav class="bn">
+  <button class="on" data-t="j"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>Jadwal</button>
+  <button data-t="r"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg>Rute</button>
+  <button data-t="m"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 9.5h17M3.5 15h17M9.5 3.5v17"/></svg>Matriks</button>
+<button data-t="d"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg>Data</button>
+</nav>
+
+<script>
+var S=[["SDN Kalideres 01",["I 2026","II 2026"]],["SDN Kalideres 02",["I 2026","II 2026"]],["SDN Kalideres 03",["I 2026","II 2026"]],["SDN Kalideres 04",["I 2026","II 2026"]],["SDN Kalideres 05",["III 2025","IV 2025","I 2026","II 2026"]],["SDN Kalideres 06",["III 2025","IV 2025","I 2026","II 2026"]],["SDN Kalideres 13",["III 2025","IV 2025","I 2026","II 2026"]],["SDN Kalideres 14",["III 2025","IV 2025","I 2026","II 2026"]],["SMKN 42 Jakarta",["I 2026","II 2026"]]];
+var G=[{n:"Jl. Kelurahan Lama No. 28 (RT 13/RW 1)",t:"gedung",q:"SDN Kalideres 01 Pagi Jl. Kelurahan Lama No.28 RT.13/RW.1 Kalideres Jakarta Barat",a:"Di Dapodik tertulis Jl. Peta Selatan No. 29. Pin memakai alamat versi Maps.",m:[0,1,2,3],s:{0:"Pagi",1:"Petang",2:"Pagi",3:"Petang"}},{n:"Jl. Peta Barat RT 4/RW 7 (Rawa Lele)",t:"kawasan",q:"SDN Kalideres 05 Pagi Jl. Peta Barat RT.4/RW.7 Kalideres Jakarta Barat",a:"Versi Maps: 05 di Jl. Bukit Elok 5, 06 di Kp. Rawa Lele, 13 dan 14 di Jl. Peta Barat. Satu kawasan, belum pasti satu bangunan.",m:[4,5,6,7],s:{4:"Pagi",5:"Pagi",6:"Petang",7:"Petang"}},{n:"Jl. Kamal Raya, Cengkareng Timur",t:"gedung",q:"SMKN 42 Jakarta Jl. Kamal Raya Cengkareng Timur",m:[8],s:{}}];
+function grp(i){return G.filter(function(g){return g.m.indexOf(i)>-1})[0]}
+function ng(x){var r=[];x.s.forEach(function(i){var g=grp(i);if(r.indexOf(g)<0)r.push(g)});return r}
+var Q=function(i){return grp(i).q};
+var PH={prep:["Persiapan","Surat tugas, instrumen monev, dan konfirmasi jadwal serta jam shift ke tiap sekolah."],rekap:["Rekap dan input data","Kompilasi temuan, foto, dan berita acara."],buffer:["Cadangan dan tindak lanjut","Kunjungan ulang atau kekurangan dokumen."],fin:["Finalisasi laporan","Review, tanda tangan, rapikan lampiran."],final:["Batas akhir laporan","Kirim laporan monev BOP."]};
+var P={
+padat:{h:"Maks. 2 sekolah per hari, satu pagi dan satu petang · 5 hari kunjungan, selesai 13 Nov.",v:[["2026-11-09",[0,1]],["2026-11-10",[2,3]],["2026-11-11",[4,6]],["2026-11-12",[5,7]],["2026-11-13",[8]]],ph:[["2026-10-28","2026-11-06","prep"],["2026-11-16","2026-11-18","rekap"],["2026-11-19","2026-11-27","buffer"],["2026-11-30","2026-12-03","fin"],["2026-12-04","2026-12-04","final"]]},
+santai:{h:"1 sekolah per hari · 9 hari kunjungan, selesai 19 Nov. Sekolah satu gedung tetap dikunjungi di hari berbeda.",v:[["2026-11-09",[0]],["2026-11-10",[1]],["2026-11-11",[2]],["2026-11-12",[3]],["2026-11-13",[4]],["2026-11-16",[5]],["2026-11-17",[6]],["2026-11-18",[7]],["2026-11-19",[8]]],ph:[["2026-10-28","2026-11-06","prep"],["2026-11-20","2026-11-24","rekap"],["2026-11-25","2026-11-27","buffer"],["2026-11-30","2026-12-03","fin"],["2026-12-04","2026-12-04","final"]]}
+};
+var DN=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],MN=["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
+function D(s){var p=s.split("-");return new Date(+p[0],p[1]-1,+p[2])}
+function full(d){return DN[d.getDay()]+", "+d.getDate()+" "+MN[d.getMonth()]+" 2026"}
+function rng(a,b){return a.getDate()+(a.getMonth()!==b.getMonth()?" "+MN[a.getMonth()]:"")+" – "+b.getDate()+" "+MN[b.getMonth()]}
+function wd(a,b){var n=0,d=new Date(a);while(d<=b){if(d.getDay()%6)n++;d.setDate(d.getDate()+1)}return n}
+function mon(d){var x=new Date(d);x.setDate(x.getDate()-((x.getDay()+6)%7));return x}
+function enc(s){return encodeURIComponent(s)}
+function dir(a){var t=[];a.forEach(function(i){var e=enc(Q(i));if(t.indexOf(e)<0)t.push(e)});return"https://www.google.com/maps/dir/?api=1&travelmode=driving&destination="+t[t.length-1]+(t.length>1?"&waypoints="+t.slice(0,-1).join("%7C"):"")}
+function place(i){return"https://www.google.com/maps/search/?api=1&query="+enc(Q(i))}
+var KEY="monev-bop-2026:v1",mode="padat",done=[],ts=0,saveOk=true;
+function clean(a){return Array.isArray(a)?a.filter(function(v,k){return Number.isInteger(v)&&v>=0&&v<S.length&&a.indexOf(v)===k}):[]}
+try{
+  var raw=localStorage.getItem(KEY),o=raw?JSON.parse(raw):null;
+  if(o){mode=o.mode;done=clean(o.done);ts=+o.ts||0}
+  else{mode=localStorage.getItem("mb-mode")||"padat";done=clean(JSON.parse(localStorage.getItem("mb-done")||"[]"))}
+}catch(e){}
+if(!P[mode])mode="padat";
+function save(){
+  ts=Date.now();
+  try{
+    localStorage.setItem(KEY,JSON.stringify({mode:mode,done:done,ts:ts}));saveOk=true;
+    if(navigator.storage&&navigator.storage.persist)navigator.storage.persist()
+  }catch(e){saveOk=false}
+}
+function stat(){
+  var d=ts?new Date(ts):null,t=d?("0"+d.getHours()).slice(-2)+"."+("0"+d.getMinutes()).slice(-2):"",l=d?d.getDate()+" "+MN[d.getMonth()]+" "+t:"";
+  document.getElementById("svs").textContent=!saveOk?"Penyimpanan browser diblokir. Ekspor cadangan secara manual.":d?"Tersimpan otomatis di perangkat ini · "+l:"Centang sekolah, progres tersimpan otomatis di perangkat ini.";
+  document.getElementById("chip").textContent=!saveOk?"Tidak tersimpan":d?"Tersimpan "+t:"Siap"
+}
+var now=new Date();now.setHours(0,0,0,0);var END=D("2026-12-04");
+function items(){return P[mode].v.map(function(x){return{d:D(x[0]),t:"v",s:x[1]}}).concat(P[mode].ph.map(function(x){return{d:D(x[0]),e:D(x[1]),t:x[2]}})).sort(function(x,y){return x.d-y.d})}
+function hm(v){return("0"+Math.floor(v/60)).slice(-2)+"."+("0"+v%60).slice(-2)}
+function slots(x){var t=480,m={};x.s.forEach(function(i){if(grp(i).s[i]==="Petang"&&x.s.length>1){var p=x.d.getDay()===5?780:750;if(t<p)t=p}var d=x.s.length===1?210:S[i][1].length>2?150:90;m[i]=hm(t)+"–"+hm(t+d);t+=d+15});return x.s.map(function(i){return m[i]})}
+function chips(i){return S[i][1].map(function(p){return'<span class="chip'+(p.indexOf("2025")>-1?" o":"")+'">Tw '+p+"</span>"}).join("")}
+
+function st(x,td){var a=x.s.every(function(i){return done.indexOf(i)>-1});return a?'<span class="tag ok">Selesai</span>':td?'<span class="tag">Hari ini</span>':x.d<now?'<span class="tag bad">Terlewat</span>':""}
+function render(){
+  var h="",it=items(),nx=null,wk=-1,wn=0,ws={};it.forEach(function(x){if(x.t==="v"){var k=mon(x.d).getTime();ws[k]=ws[k]||[0,0];ws[k][0]+=x.s.length;ws[k][1]+=x.s.filter(function(i){return done.indexOf(i)>-1}).length}});
+  it.forEach(function(x){
+    var m=mon(x.d).getTime();
+    if(m!==wk){wk=m;wn++;var f=new Date(m),e=new Date(m);e.setDate(e.getDate()+4);h+='<div class="wk"><span><b>Minggu '+wn+'</b> · '+rng(f,e)+"</span>"+(ws[m]?"<span>"+ws[m][1]+"/"+ws[m][0]+" selesai</span>":"")+"</div>"}
+    var td=x.d.getTime()===now.getTime(),dd='<div class="dd"><span>'+DN[x.d.getDay()].slice(0,3)+"</span><b>"+x.d.getDate()+"</b></div>";
+    if(x.t==="v"){
+      var sl=slots(x);
+      if(!nx&&x.d>=now&&x.s.some(function(i){return done.indexOf(i)<0}))nx=x;
+      var np=x.s.reduce(function(a,i){return a+S[i][1].length},0);
+      h+='<article class="day'+(td?" today":"")+'">'+dd+'<div class="db"><div class="dh"><h3>'+x.s.length+" sekolah"+(ng(x).length<x.s.length?" · "+ng(x).length+" lokasi":"")+"</h3>"+st(x,td)+'<span class="meta">'+np+" periode</span></div>"+ng(x).map(function(g){var c=x.s.filter(function(i){return g.m.indexOf(i)>-1});return c.length>1?'<div class="bld"><b>Satu '+g.t+'</b> · '+g.n+'<br>'+c.map(function(i){return S[i][0].replace("SDN Kalideres ","SDN ")+" "+g.s[i]}).join(", ")+(g.t==="kawasan"?"<br>Bisa beda bangunan atau pintu masuk, cek di lokasi.":"")+"</div>":""}).join("");
+      x.s.forEach(function(i,k){
+        if(k&&grp(i)!==grp(x.s[k-1]))h+='<div class="tr">Pindah lokasi · '+grp(i).n+'</div>';
+        var ok=done.indexOf(i)>-1;
+        h+='<label class="s'+(ok?" ok":"")+'"><div class="t">'+sl[k].replace("–","<br>")+'</div><div class="m"><b>'+S[i][0]+'</b>'+(grp(i).s[i]?'<span class="meta"> · '+grp(i).s[i]+'</span>':'')+'<div class="chips">'+chips(i)+'</div></div><input class="ck" type="checkbox" data-i="'+i+'"'+(ok?" checked":"")+' aria-label="Selesai"></label>'
+      });
+      h+='<div class="acts"><a class="btn pri" target="_blank" rel="noopener" href="'+dir(x.s)+'">Rute hari ini ↗</a>'+ng(x).map(function(g){return'<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+enc(g.q)+'">Lokasi · '+g.n.split(" (")[0].replace("Jl. ","")+"</a>"}).join("")+"</div></div></article>";
+    }else{
+      var many=x.e&&x.e>x.d;
+      h+='<article class="day ph'+(td?" today":"")+'">'+(many?'<div class="dd"><b>'+wd(x.d,x.e)+'</b><span>hari</span></div>':dd)+'<div class="db"><h3>'+PH[x.t][0]+"</h3><p>"+(many?rng(x.d,x.e)+" · ":"")+PH[x.t][1]+"</p></div></article>";
+    }
+  });
+  document.getElementById("p-j").innerHTML=h;
+  document.querySelectorAll(".ck").forEach(function(c){c.onchange=function(){var k=+c.dataset.i,p=done.indexOf(k);p>-1?done.splice(p,1):done.push(k);save();render()}});
+  var N=document.getElementById("next");
+  N.innerHTML=nx?'<div class="lbl">Agenda berikutnya</div><b>'+ng(nx).map(function(g){var c=nx.s.filter(function(i){return g.m.indexOf(i)>-1});return c.length>1?g.n+" ("+c.length+" sekolah)":S[c[0]][0]}).join(" + ")+"</b><span>"+full(nx.d)+" · mulai "+slots(nx)[0].slice(0,5)+"</span><br><a class='btn' target='_blank' rel='noopener' href='"+dir(nx.s.filter(function(i){return done.indexOf(i)<0}))+"'>Mulai navigasi ↗</a>":'<div class="lbl">Status</div><b>'+(done.length>=9?"Semua kunjungan selesai":"Tidak ada kunjungan tersisa")+"</b><span>Lanjut ke rekap dan finalisasi laporan.</span>";
+  document.getElementById("sDone").textContent=done.length+"/9";
+  document.getElementById("pb").style.width=(done.length/9*100)+"%";
+  document.getElementById("sDays").textContent=P[mode].v.length;
+  document.getElementById("hint").textContent=P[mode].h;stat();
+  var l=Math.round((END-now)/864e5);document.getElementById("sLeft").textContent=l>0?l:l===0?"0":"✓";
+  document.querySelectorAll("#mode button").forEach(function(b){b.classList.toggle("on",b.dataset.m===mode)});
+  document.getElementById("days").innerHTML=P[mode].v.map(function(x){var d=D(x[0]);return'<div class="day"><div class="db"><div class="dh"><h3>'+full(d)+'</h3><span class="meta">'+x[1].length+' sekolah</span></div><div class="rt"><div class="rs"><div class="nd s0">•</div>Lokasi Anda</div>'+ng({s:x[1]}).map(function(g,k){return'<div class="rs"><div class="nd">'+(k+1)+"</div><div>"+g.n+'<div class="meta">'+x[1].filter(function(i){return g.m.indexOf(i)>-1}).map(function(i){return S[i][0].replace("SDN Kalideres ","SDN ")}).join(", ")+"</div></div></div>"}).join("")+'</div><div class="acts"><a class="btn pri" target="_blank" rel="noopener" href="'+dir(x[1])+'">Buka rute ↗</a></div></div></div>'}).join("");
+}
+document.querySelectorAll("#mode button").forEach(function(b){b.onclick=function(){mode=b.dataset.m;save();render()}});
+document.querySelectorAll("nav.bn button").forEach(function(b){b.onclick=function(){
+  document.querySelectorAll("nav.bn button,.pane").forEach(function(e){e.classList.remove("on")});
+  b.classList.add("on");document.getElementById("p-"+b.dataset.t).classList.add("on");document.body.dataset.tab=b.dataset.t;window.scrollTo(0,0)}});
+document.getElementById("sPer").textContent=S.reduce(function(a,s){return a+s[1].length},0);
+document.getElementById("full").href=dir(S.map(function(_,i){return i}));
+document.getElementById("bl").innerHTML=G.map(function(g){return'<div class="day"><div class="db"><div class="dh"><h3>'+g.n+'</h3><span class="meta">'+g.m.length+' sekolah</span></div><p class="meta" style="margin:6px 0 0">'+g.m.map(function(i){return S[i][0].replace("SDN Kalideres ","SDN ")+(g.s[i]?" ("+g.s[i]+")":"")}).join(" · ")+'</p>'+(g.a?'<p class="meta" style="margin:6px 0 0">'+g.a+'</p>':'')+'<div class="acts"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+enc(g.q)+'">Lihat di Maps ↗</a></div></div></div>'}).join("");
+var cols=["III 2025","IV 2025","I 2026","II 2026"];
+document.getElementById("mx").innerHTML="<tr><th>Sekolah</th>"+cols.map(function(c){return"<th>Tw "+c+"</th>"}).join("")+"<th>Total</th></tr>"+S.map(function(s){return"<tr><td>"+s[0]+"</td>"+cols.map(function(c){return'<td><span class="dot'+(s[1].indexOf(c)>-1?"":" n")+'"></span></td>'}).join("")+"<td><b>"+s[1].length+"</b></td></tr>"}).join("")+'<tr class="tf"><td>Jumlah sekolah</td>'+cols.map(function(c){return"<td>"+S.filter(function(s){return s[1].indexOf(c)>-1}).length+"</td>"}).join("")+"<td>"+S.reduce(function(a,s){return a+s[1].length},0)+"</td></tr>";
+document.getElementById("ex").onclick=function(){
+  var b=new Blob([JSON.stringify({app:"monev-bop-2026",v:1,mode:mode,done:done,ts:ts||Date.now()},null,1)],{type:"application/json"});
+  var a=document.createElement("a"),t=new Date();
+  a.href=URL.createObjectURL(b);
+  a.download="monev-bop-backup-"+t.getFullYear()+"-"+("0"+(t.getMonth()+1)).slice(-2)+"-"+("0"+t.getDate()).slice(-2)+".json";
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href)},1000)
+};
+document.getElementById("im").onchange=function(){
+  var f=this.files[0],inp=this;if(!f)return;
+  var r=new FileReader();
+  r.onload=function(){
+    try{
+      var o=JSON.parse(r.result);
+      if(o.app!=="monev-bop-2026"||!P[o.mode])throw 0;
+      var d=clean(o.done);
+      if(!confirm("Timpa progres saat ini ("+done.length+"/"+S.length+") dengan cadangan ("+d.length+"/"+S.length+")?"))return;
+      mode=o.mode;done=d;save();render()
+    }catch(e){alert("File cadangan tidak valid.")}
+  };
+  r.readAsText(f);inp.value=""
+};
+var TH="monev-bop-2026:theme";
+function th(v){v?document.documentElement.setAttribute("data-theme",v):document.documentElement.removeAttribute("data-theme")}
+try{th(localStorage.getItem(TH))}catch(e){}
+document.getElementById("tg").onclick=function(){var c=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"),n=c==="dark"?"light":"dark";th(n);try{localStorage.setItem(TH,n)}catch(e){}};
+document.getElementById("pr").onclick=function(){window.print()};
+document.getElementById("rs").onclick=function(){if(confirm("Hapus semua progres di perangkat ini? Ekspor cadangan dulu bila perlu.")){done=[];ts=0;try{localStorage.removeItem(KEY)}catch(e){}render()}};
+render();
+</script>
+</body>
+</html>
